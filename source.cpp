@@ -33,9 +33,5 @@ int main()
 	system("pause");
 	return 0;
 }
-// void nhanhMoi()
-//{
-//cout<<"Tich 2 so la "<<tich(a,b);
-//	cout<<endl;
-//}
+//Câu 19
 
