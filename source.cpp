@@ -8,6 +8,9 @@ int hieu(int a, int b);
 {
 	return	a-b;
 }
+int tich(int a, int b){
+	return a*b;	
+}
 
 
 int main()
@@ -24,6 +27,9 @@ int main()
 	cout<<"Hieu 2 so la"<<hieu(a,b);
 	if(pheptoan == "+")
 	cout<< "Tong 2 so la"<<tong(a,b);
+	if(pheptoan =="*")
+	cout<<"Tich 2 so la "<<tich(a,b);
+	cout<<endl;
 	system("pause");
 	return 0;
 }
